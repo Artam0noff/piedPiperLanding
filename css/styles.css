@@ -1,0 +1,242 @@
+@import url("normalize.css");
+@font-face { 
+    font-family: "Roboto"; 
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+body {
+    font-family: Roboto;
+    background: #EEEEEE;
+}
+
+.content-block {
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: 0 auto;
+}
+
+/* Header styles start */
+
+.header-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    
+}
+
+.header-link:focus,.header-link:hover,.header-link:active {
+    opacity: .75;
+}
+
+.header-item {
+    margin-right: 8px;
+    list-style-type: none;
+    font-size: 24px;
+    color: white;
+}
+
+.header-item:last-child{
+    margin-right: 0px;
+}
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-wrapper {
+    position: relative;
+    height: 84px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header {
+    
+    position: fixed;
+    height: 84px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: #007765;
+}
+
+/* Header styles end */
+
+/* Jumbotron styles start */
+
+.jumbotron {
+    background: url('../img/jum.png') no-repeat;
+    background-size: cover;  
+    height: 403px;
+    margin-top: 84px;
+}
+
+.jum-wrapper{
+    height: 403px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jum-text{
+    color: white;
+    font-weight: 500;
+    font-size: 72px;
+}
+
+/* jumbotron styles end */
+
+/* Problem section styles start */
+
+.problem-section{
+    padding-top: 42px;
+    padding-bottom:92px;
+}
+
+.text-header {
+    text-align: center;
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 0px;
+}
+
+.problem-text{
+    font-size: 32px;
+    text-align: left;
+    color: #000000;
+    line-height: 37.5px;
+}
+
+/* Problem section styles end */
+
+/* Hero section styles start */
+
+.hero-section{
+    background: url('../img/hero.png') no-repeat;
+    background-size: cover;  
+    height: 483px;
+}
+
+.hero-wrapper{
+    height: 483px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    margin-left: 163px;
+    margin-right: 163px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+/* Hero section style end */
+
+.intro-section {
+    background-color: white;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.intro-text{
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+/* Intro section styles end */
+
+.team-section{
+    padding-top: 48px;
+}
+
+.team-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 106px;
+    margin-right: 106px;
+    margin-bottom: 82px;
+}
+
+.person-img {
+    width: 168px;
+    height: 168px;
+}
+
+.person-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.person-position {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.team-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* Footer styles start */
+
+.footer {
+    background: #333333;
+    padding: 48px 0 64px 0
+}
+
+.footer-text {
+    padding-right: 290px;
+    padding-left: 290px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+#prob:before {
+    display: block;
+    content: "";
+    height: 90px;
+    margin: -90px 0 0;
+}
+
+#intro:before {
+    display: block;
+    content: "";
+    height: 90px;
+    margin: -90px 0 0;
+}
+
+#team:before {
+    display: block;
+    content: "";
+    height: 90px;
+    margin: -90px 0 0;
+}
